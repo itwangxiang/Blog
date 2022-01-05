@@ -1,5 +1,5 @@
-baseURL: "https://wxiang.cc/blog/"
-title: Kim 个人博客
+baseURL: "https://blog.wxiang.cc/"
+title: Kim 的个人博客
 paginate: 5
 theme: hugo-PaperMod
 
@@ -61,6 +61,7 @@ params:
     #env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Kim 个人博客 - https://github.com/itwangxiang/blog"
     author: Kim Liss
+    dateFormat: "2006-01-02"
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
