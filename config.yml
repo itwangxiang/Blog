@@ -1,4 +1,4 @@
-baseURL: "https://blog.wxiang.cc/"
+baseURL: "https://wxiang.cc/"
 title: 须远
 paginate: 5
 theme: hugo-PaperMod
@@ -102,6 +102,8 @@ params:
           url: "https://github.com/itwangxiang"
         - name: RsS
           url: "index.xml"
+        - name: email
+          url: "mailto:itwangxiang@gmail.com"
 
     editPost:
         URL: "https://github.com/itwangxiang/blog/tree/master/content"
