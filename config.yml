@@ -10,6 +10,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 googleAnalytics: G-925QSPB2XF
+disqusShortname: wxiang
 
 minify:
     disableXML: true
@@ -74,7 +75,7 @@ params:
     ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowToc: true
-    # comments: false
+    comments: true
     images: ["papermod-cover.png"]
 
     profileMode:
