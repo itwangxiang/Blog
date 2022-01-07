@@ -23,7 +23,6 @@ minify:
 outputs:
   home:
     - HTML
-    - RSS
     - JSON
 
 taxonomies:
