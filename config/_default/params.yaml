@@ -45,10 +45,6 @@ home:
   posts:
     enable: true
     paginate: 5
-search:
-  enable: true
-  type: "lunr"
-  placeholder: ""
 page:
   hiddenFromHomePage: false
   lightgallery: false
@@ -61,3 +57,16 @@ social:
   Github: itwangxiang
   Email: itwangxiang@gmail.com
   RSS: true
+search:
+  enable: true
+  type: lunr
+  contentLength: 4000
+  placeholder: ""
+  maxResultLength: 10
+  snippetLength: 50
+  highlightTag: em
+  absoluteURL: false
+  algolia:
+    index: ""
+    appID: ""
+    searchKey: ""
