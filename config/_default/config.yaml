@@ -1,7 +1,7 @@
 baseURL: "https://wxiang.cc/"
 theme:
-  - PaperMod
-  # - LoveIt
+  # - PaperMod
+  - LoveIt
 languageCode: zh-CN
 defaultContentLanguage: zh-cn
 disableLanguages:
