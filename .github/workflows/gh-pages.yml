@@ -26,7 +26,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build
-        run: hugo --buildDrafts --gc --verbose --minify
+        run: hugo --buildDrafts --gc --verbose --minify -e production
 
       # - name: Upload
       #   uses: actions/upload-artifact@v2
