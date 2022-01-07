@@ -1,0 +1,33 @@
+zh-cn:
+  title: 须远
+  languageName: Chinese (Simplified)
+  timeZone: "Asia/Shanghai"
+  dateFormat: "2006年01月02日"
+  profileMode:
+    enabled: true
+    title: 人生当立志，立志须高远
+    subtitle: "欢迎来到我的个人小站"
+    imageUrl: "https://avatars.githubusercontent.com/u/7286154"
+    imageTitle: 头像
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: 博客
+        url: archives
+      - name: 标签
+        url: tags
+en:
+  title: Must Far
+  profileMode:
+    enabled: true
+    title: Life should be determined <br/> determined to be high
+    subtitle: welcome to my personal website
+    imageUrl: https://avatars.githubusercontent.com/u/7286154
+    imageTitle: Avatar
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags

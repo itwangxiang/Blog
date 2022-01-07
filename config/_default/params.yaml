@@ -1,0 +1,63 @@
+# PaperMod
+# env: production
+# description: "Kim 个人网站 - https://wxiang.cc"
+# author: Kim Liss
+# homeInfoParams:
+#   Title: "人生当立志，立志须高远"
+#   Content: >
+#     欢迎来到我的个人博客
+
+# defaultTheme: auto
+# ShowShareButtons: true
+# ShowReadingTime: true
+# displayFullLangName: true
+# ShowPostNavLinks: true
+# ShowBreadCrumbs: true
+# ShowCodeCopyButtons: true
+# ShowToc: true
+# comments: true
+# images: ["logo.jpg"]
+
+# socialIcons:
+#   - name: github
+#     url: "https://github.com/itwangxiang"
+#   - name: RsS
+#     url: "index.xml"
+#   - name: email
+#     url: "mailto:itwangxiang@gmail.com"
+
+# editPost:
+#   URL: "https://github.com/itwangxiang/itwangxiang.github.io/tree/master/content"
+#   Text: "Suggest Changes" # edit text
+#   appendFilePath: true # to append file path to Edit link
+
+# LoveIt
+version: "0.2.X"
+keywords: ["Blog", "IT", "Java"]
+home:
+  profile:
+    enable: true
+    avatarURL: "./logo.jpg"
+    title: "人生当立志，立志须高远"
+    subtitle: "欢迎来到我的个人小站"
+    typeit: true
+    social: true
+  posts:
+    enable: true
+    paginate: 5
+search:
+  enable: true
+  type: "lunr"
+  placeholder: ""
+page:
+  hiddenFromHomePage: false
+  lightgallery: false
+  comment:
+    enable: true
+    disqus:
+      enable: true
+      shortname: wixang
+social:
+  Github: itwangxiang
+  Email: itwangxiang@gmail.com
+  RSS: true
