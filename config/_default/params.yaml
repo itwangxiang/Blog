@@ -59,7 +59,7 @@ social:
   RSS: true
 search:
   enable: true
-  type: algolia
+  type: lunr
   contentLength: 4000
   placeholder: ""
   maxResultLength: 10
