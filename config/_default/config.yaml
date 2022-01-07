@@ -1,7 +1,7 @@
 baseURL: "https://wxiang.cc/"
 theme:
-  # - PaperMod
-  - LoveIt
+  - PaperMod
+  # - LoveIt
 languageCode: zh-CN
 defaultContentLanguage: zh-cn
 disableLanguages:
@@ -17,46 +17,6 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 
-minify:
-  disableXML: true
-
-outputs:
-  home:
-    - HTML
-    - JSON
-
-taxonomies:
-  category: categories
-  tag: tags
-  series: series
-
 markup:
   highlight:
     noClasses: false
-  goldmark:
-    renderer:
-      unsafe: true
-
-privacy:
-  vimeo:
-    disabled: true
-    simple: true
-
-  twitter:
-    disabled: true
-    enableDNT: true
-    simple: true
-
-  instagram:
-    disabled: true
-    simple: true
-
-  youtube:
-    disabled: true
-    privacyEnhanced: true
-
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
