@@ -3,6 +3,19 @@ defaultTheme: auto
 gitRepo: "https://github.com/itwangxiang/itwangxiang.github.io"
 fingerprint: ""
 dateFormat: "2006-01-02"
+search:
+  enable: true
+  type: lunr
+  contentLength: 4000
+  placeholder: ""
+  maxResultLength: 10
+  snippetLength: 50
+  highlightTag: em
+  absoluteURL: false
+  algolia:
+    index: ""
+    appID: ""
+    searchKey: ""
 images:
   - /logo.jpg
 header:
