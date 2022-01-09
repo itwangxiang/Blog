@@ -1,0 +1,38 @@
+version: "0.2.X"
+keywords: ["Blog", "IT", "Java"]
+home:
+  profile:
+    enable: true
+    avatarURL: "./logo.jpg"
+    title: "人生当立志，立志须高远"
+    subtitle: "欢迎来到我的个人小站"
+    typeit: true
+    social: true
+  posts:
+    enable: true
+    paginate: 5
+page:
+  hiddenFromHomePage: false
+  lightgallery: false
+  comment:
+    enable: true
+    disqus:
+      enable: true
+      shortname: wixang
+social:
+  Github: itwangxiang
+  Email: itwangxiang@gmail.com
+  RSS: true
+search:
+  enable: true
+  type: lunr
+  contentLength: 4000
+  placeholder: ""
+  maxResultLength: 10
+  snippetLength: 50
+  highlightTag: em
+  absoluteURL: false
+  algolia:
+    index: ""
+    appID: ""
+    searchKey: ""

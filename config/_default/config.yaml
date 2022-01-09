@@ -1,63 +1,39 @@
 baseURL: "https://wxiang.cc/"
-theme:
-  # - PaperMod
-  - LoveIt
+theme: PaperMod
+paginate: 5
+
+title: 须远
+timeZone: "Asia/Shanghai"
+
 languageCode: zh-CN
 defaultContentLanguage: zh-cn
-disableLanguages:
-  - en
+disableLanguages: en
 
 googleAnalytics: G-925QSPB2XF
 disqusShortname: wxiang
 
-enableInlineShortcodes: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+
 enableEmoji: true
 
 minify:
   disableXML: true
-
-outputs:
-  home:
-    - HTML
-    - JSON
-    - RSS
+  minifyOutput: true
 
 taxonomies:
   category: categories
   tag: tags
-  series: series
 
 markup:
-  highlight:
-    noClasses: false
   goldmark:
     renderer:
       unsafe: true
 
-privacy:
-  vimeo:
-    disabled: true
-    simple: true
-
-  twitter:
-    disabled: true
-    enableDNT: true
-    simple: true
-
-  instagram:
-    disabled: true
-    simple: true
-
-  youtube:
-    disabled: true
-    privacyEnhanced: true
-
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

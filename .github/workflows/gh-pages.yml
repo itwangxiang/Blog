@@ -13,25 +13,29 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Git checkout
+        uses: actions/checkout@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          ref: master
 
-      - name: Setup Hugo
+      - name: Get Theme
+        run: git submodule update --init --recursive
+
+      - name: Update theme to Latest commit
+        run: git submodule update --remote --merge
+
+      - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          # extended: true
+          hugo-version: '0.83.0'
 
       - name: Build
-        run: hugo --minify
+        run: hugo --buildDrafts --gc --verbose --minify
 
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@4.1.4
-        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          folder: ./public
+          github_token: ${{ secrets.TOKEN }}
+          publish_dir: ./public
