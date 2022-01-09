@@ -1,60 +1,38 @@
-env: production
-title: 须远
-description: "Kim 个人网站 - https://wxiang.cc"
-
-keywords: [Blog, Java, IT, Android]
-dateFormat: "2006年01月02日"
-
-defaultTheme: auto
-disableThemeToggle: false
-
-ShowShareButtons: true
-ShowReadingTime: true
-displayFullLangName: true
-ShowPostNavLinks: true
-ShowBreadCrumbs: true
-ShowCodeCopyButtons: true
-ShowToc: true
-comments: true
-images: ["logo.jpg"]
-
-label:
-  text: "须远"
-  icon: /logo.jpg
-  iconHeight: 25
-
-homeInfoParams:
-  Title: "人生当立志，立志须高远"
-  Content: >
-    欢迎来到我的个人博客
-
-profileMode:
-  enabled: false
-  title: 人生当立志，立志须高远
-  subtitle: "欢迎来到我的个人小站"
-  imageUrl: "https://avatars.githubusercontent.com/u/7286154"
-  imageTitle: 头像
-  imageWidth: 120
-  imageHeight: 120
-  buttons:
-    - name: 档案
-      url: archives
-    - name: 标签
-      url: tags
-
-homeInfoParams:
-    Title: "人生当立志，立志须高远"
-    Content: 欢迎来到我的个人小站
-
-socialIcons:
-  - name: github
-    url: "https://github.com/itwangxiang"
-  - name: email
-    url: "mailto:itwangxiang@gmail.com"
-  - name: RsS
-    url: "index.xml"
-
-editPost:
-  URL: "https://github.com/itwangxiang/itwangxiang.github.io/tree/master/content"
-  Text: "Suggest Changes" # edit text
-  appendFilePath: true # to append file path to Edit link
+version: "0.2.X"
+keywords: ["Blog", "IT", "Java"]
+home:
+  profile:
+    enable: true
+    avatarURL: "./logo.jpg"
+    title: "人生当立志，立志须高远"
+    subtitle: "欢迎来到我的个人小站"
+    typeit: true
+    social: true
+  posts:
+    enable: true
+    paginate: 5
+page:
+  hiddenFromHomePage: false
+  lightgallery: false
+  comment:
+    enable: true
+    disqus:
+      enable: true
+      shortname: wixang
+social:
+  Github: itwangxiang
+  Email: itwangxiang@gmail.com
+  RSS: true
+search:
+  enable: true
+  type: lunr
+  contentLength: 4000
+  placeholder: ""
+  maxResultLength: 10
+  snippetLength: 50
+  highlightTag: em
+  absoluteURL: false
+  algolia:
+    index: ""
+    appID: ""
+    searchKey: ""

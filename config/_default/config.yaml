@@ -1,6 +1,5 @@
 baseURL: "https://wxiang.cc/"
-theme: PaperMod
-paginate: 5
+theme: LoveIt
 
 title: 须远
 timeZone: "Asia/Shanghai"
