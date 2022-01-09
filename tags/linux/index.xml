@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>linux - 标签 - 须远</title>
+        <link>https://wxiang.cc/tags/linux/</link>
+        <description>linux - 标签 - 须远</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Me)</managingEditor>
+            <webMaster>itwangxiang@gmail.com (Me)</webMaster><lastBuildDate>Mon, 15 Apr 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://wxiang.cc/tags/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Linux 常用命令</title>
+    <link>https://wxiang.cc/linux/</link>
+    <pubDate>Mon, 15 Apr 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://wxiang.cc/linux/</guid>
+    <description><![CDATA[常用命令 1 2 3 4 5 6 7 8  rm -rf a.txt ##删除 cp b.txt a.txt ##复制文件 mv a.txt b.txt ##修改文件名 nohup ping todev.cn &amp; ## 后台任务 jobs -l ## 查看后台任务, num,pid kill %num ## 杀掉后台任务，根据编号 ps -aux | grep &#34;****&#34; ## 查看相关进程 kill pid ## 杀掉进程，根据pid   设置文件权限 1 2 3 4 5 6 7 8  chmod 777 test.txt # 设置 test.txt 文件为所有用户都有读、写、执行权限 -rw------- (600) 只有拥有者有读写权限。 -rw-r--r-- (644) 只有拥有者有读写权限；而属组用户和其他用户只有读权限。 -rwx------ (700) 只有拥有者有读、写、执行权限。 -rwxr-xr-x (755) 拥有者有读、写、执行权限；而属组用户和其他用户只有读、执行权限。 -rwx--x--x (711) 拥有者有读、写、执行权限；而属组用户和其他用户只有执行权限。 -rw-rw-rw- (666) 所有用户都有文件读、写权限。 -rwxrwxrwx (777) 所有用户都有读、写、执行权限。   环境配置 1 2 3 4  # 编辑 vi ~/.]]></description>
+</item></channel>
+</rss>

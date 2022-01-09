@@ -1,0 +1,54 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>基础 - 分类 - 须远</title>
+        <link>https://wxiang.cc/categories/%E5%9F%BA%E7%A1%80/</link>
+        <description>基础 - 分类 - 须远</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Me)</managingEditor>
+            <webMaster>itwangxiang@gmail.com (Me)</webMaster><lastBuildDate>Sat, 12 Sep 2015 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://wxiang.cc/categories/%E5%9F%BA%E7%A1%80/" rel="self" type="application/rss+xml" /><item>
+    <title>设计模式</title>
+    <link>https://wxiang.cc/design-pattern/</link>
+    <pubDate>Sat, 12 Sep 2015 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://wxiang.cc/design-pattern/</guid>
+    <description><![CDATA[ 相关书籍  HeadFirst_设计模式.pdf 设计模式_可复用面向对象软件的基础.pdf    创建型   工厂方法模式 Factory Method Pattern
+ UML 图  Code  FactoryMethodPattern.java   Java 中用例  java.util.Calendar      建造者模式 Builder Pattern
+  单例模式 Singleton Pattern
+  结构型 行为型 ]]></description>
+</item><item>
+    <title>数据结构与算法</title>
+    <link>https://wxiang.cc/data-structure-algorithm/</link>
+    <pubDate>Thu, 03 Sep 2015 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://wxiang.cc/data-structure-algorithm/</guid>
+    <description><![CDATA[数据结构  todo  算法 排序算法  对一序列对象根据某个关键字进行排序
+ 冒泡排序 1 2 3 4 5 6 7 8 9  public static void bubbleSort(int[] array) { for (int i = 0; i &lt; array.length; i++) for (int j = 0; j &lt; array.length - i - 1; j++) if (array[j + 1] &lt; array[j]) { int temp = array[j + 1]; array[j + 1] = array[j]; array[j] = temp; } }   选择排序 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19  public static void selectionSort(int[] arr) { int min, temp; for (int i = 0; i &lt; arr.]]></description>
+</item><item>
+    <title>计算机网络</title>
+    <link>https://wxiang.cc/computer-network/</link>
+    <pubDate>Wed, 15 Jul 2015 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://wxiang.cc/computer-network/</guid>
+    <description><![CDATA[计算机网络 ]]></description>
+</item><item>
+    <title>计算机操作系统</title>
+    <link>https://wxiang.cc/operating-system/</link>
+    <pubDate>Tue, 14 Jul 2015 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://wxiang.cc/operating-system/</guid>
+    <description><![CDATA[todo  1  ]]></description>
+</item><item>
+    <title>计算机组成原理</title>
+    <link>https://wxiang.cc/computer-organization/</link>
+    <pubDate>Tue, 14 Jul 2015 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://wxiang.cc/computer-organization/</guid>
+    <description><![CDATA[计算机组成原理 ]]></description>
+</item><item>
+    <title>计算机编译原理</title>
+    <link>https://wxiang.cc/compilers-principles/</link>
+    <pubDate>Tue, 14 Jul 2015 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://wxiang.cc/compilers-principles/</guid>
+    <description><![CDATA[todo    ]]></description>
+</item></channel>
+</rss>

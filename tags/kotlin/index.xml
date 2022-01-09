@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>kotlin - 标签 - 须远</title>
+        <link>https://wxiang.cc/tags/kotlin/</link>
+        <description>kotlin - 标签 - 须远</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Me)</managingEditor>
+            <webMaster>itwangxiang@gmail.com (Me)</webMaster><lastBuildDate>Tue, 05 Nov 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://wxiang.cc/tags/kotlin/" rel="self" type="application/rss+xml" /><item>
+    <title>Kotlin 常用语法</title>
+    <link>https://wxiang.cc/kotlin/</link>
+    <pubDate>Tue, 05 Nov 2019 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>https://wxiang.cc/kotlin/</guid>
+    <description><![CDATA[官方文档 - en / zh-cn
+ 惯用语法 - en / zh-cn
+  基础 基础语法   包
+1 2  package my.demo import kotlin.text.*     函数
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16  fun sum(a: Int, b: Int): Int { return a + b } //表达式作为函数体，返回类型自动推断 fun sum(a: Int, b: Int) = a + b //无返回值的函数 fun printSum(a: Int, b: Int): Unit { println(&#34;sum of $aand $bis ${a + b}&#34;) } //Unit 返回类型可以省略 fun printSum(a: Int, b: Int) { println(&#34;sum of $aand $bis ${a + b}&#34;) }     变量]]></description>
+</item></channel>
+</rss>
