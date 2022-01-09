@@ -3,10 +3,6 @@ defaultTheme: auto
 gitRepo: "https://github.com/itwangxiang/itwangxiang.github.io"
 fingerprint: ""
 dateFormat: "2006-01-02"
-editPost:
-  url: "https://github.com/itwangxiang/itwangxiang.github.io/tree/master/content"
-  text: "编辑" # edit text
-  appendFilePath: true # to append file path to Edit link
 search:
   enable: true
   type: lunr
@@ -60,6 +56,10 @@ page:
     enable: true
     keepStatic: false
     auto: true
+  editPost:
+    url: "https://github.com/itwangxiang/itwangxiang.github.io/tree/master/content"
+    text: "编辑" # edit text
+    appendFilePath: true # to append file path to Edit link    
   code:
     copy: true
     maxShownLines: 10
