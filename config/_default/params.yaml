@@ -1,3 +1,4 @@
+env: production
 version: "0.2.X"
 description: "这是我的个人小站"
 keywords: ["Blog", "IT", "Java"]
