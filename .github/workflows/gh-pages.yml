@@ -26,7 +26,7 @@ jobs:
           hugo-version: '0.83.0'
 
       - name: Build
-        run: hugo --buildDrafts --gc --verbose --minify
+        run: hugo --buildDrafts --gc --verbose --minify --environment production
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
