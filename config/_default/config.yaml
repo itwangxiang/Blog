@@ -9,7 +9,7 @@ defaultContentLanguage: zh-cn
 disableLanguages: en
 
 googleAnalytics: G-925QSPB2XF
-# disqusShortname: wxiang
+disqusShortname: wxiang
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -49,7 +49,7 @@ markup:
     endLevel: 6
 
 author:
-  name: Me
+  name: Kim Liss
   email: itwangxiang@gmail.com
   link: https://wxiang.cc/about
 
