@@ -1,30 +1,14 @@
 baseURL: "https://wxiang.cc/"
-theme: LoveIt
-
-title: 须远
-timeZone: "Asia/Shanghai"
-
 languageCode: zh-CN
-defaultContentLanguage: zh-cn
 disableLanguages: en
-
-googleAnalytics: G-925QSPB2XF
-disqusShortname: wxiang
+defaultContentLanguage: zh-cn
+timeZone: "Asia/Shanghai"
+theme: LoveIt
+title: 须远
 
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
+enableGitInfo: true
 enableEmoji: true
-
-minify:
-  disableXML: true
-  minifyOutput: true
-
-taxonomies:
-  category: categories
-  tag: tags
 
 markup:
   highlight:
@@ -47,29 +31,51 @@ markup:
   tableOfContents:
     startLevel: 2
     endLevel: 6
-
 author:
   name: Kim Liss
   email: itwangxiang@gmail.com
   link: https://wxiang.cc/about
-
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
 Permalinks:
 # posts = ":year/:month/:filename"
   posts: :filename
-
+privacy:
+  googleAnalytics: {}
+  twitter:
+    enableDNT: true
+  youtube:
+    privacyEnhanced: true
 mediaTypes:
-  "text/plain": 
-    suffixes: md
-
+  text/plain:
+    suffixes:
+      - md
 outputFormats:
   MarkDown:
     mediaType: text/plain
     isPlainText: true
-    isHTML: true
-
+    isHTML: false
 outputs:
-  home: ["HTML", "RSS", "JSON"]
-  page: ["HTML", "MarkDown"]
-  section: ["HTML", "RSS"]
-  taxonomy: ["HTML", "RSS"]
-  taxonomyTerm: ["HTML"]
+  home:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+    - MarkDown
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
+  taxonomyTerm:
+    - HTML
+
+
+
+
+googleAnalytics: G-925QSPB2XF
+disqusShortname: wxiang
