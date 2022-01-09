@@ -1,19 +1,5 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>EventBus - 标签 - 须远</title>
-        <link>https://wxiang.cc/tags/eventbus/</link>
-        <description>EventBus - 标签 - 须远</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Kim Liss)</managingEditor>
-            <webMaster>itwangxiang@gmail.com (Kim Liss)</webMaster><lastBuildDate>Sun, 05 Mar 2017 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://wxiang.cc/tags/eventbus/" rel="self" type="application/rss+xml" /><item>
-    <title>EventBus 源码分析</title>
-    <link>https://wxiang.cc/eventbus/</link>
-    <pubDate>Sun, 05 Mar 2017 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://wxiang.cc/eventbus/</guid>
-    <description><![CDATA[3.1.1
- 使用   定义事件
-1  public static class MessageEvent { /* Additional fields if needed */ }     准备订阅者：声明并注释您的订阅方法，可选择指定一个线程模式
-1 2  @Subscribe(threadMode = ThreadMode.MAIN) public void onMessageEvent(MessageEvent event) {/* Do something */};     注册和注销您的订阅者
-1 2 3 4 5 6 7 8 9 10 11  @Override public void onStart() { super.onStart(); EventBus.getDefault().register(this); } @Override public void onStop() { super.]]></description>
-</item></channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>EventBus - 标签 - 须远</title><link>https://wxiang.cc/tags/eventbus/</link><description>EventBus - 标签 - 须远</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Kim Liss)</managingEditor><webMaster>itwangxiang@gmail.com (Kim Liss)</webMaster><lastBuildDate>Sun, 05 Mar 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://wxiang.cc/tags/eventbus/" rel="self" type="application/rss+xml"/><item><title>EventBus 源码分析</title><link>https://wxiang.cc/eventbus/</link><pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate><author>作者</author><guid>https://wxiang.cc/eventbus/</guid><description>3.1.1
+使用 定义事件
+1 public static class MessageEvent { /* Additional fields if needed */ } 准备订阅者：声明并注释您的订阅方法，可选择指定一个线程模式
+1 2 @Subscribe(threadMode = ThreadMode.MAIN) public void onMessageEvent(MessageEvent event) {/* Do something */}; 注册和注销您的订阅者
+1 2 3 4 5 6 7 8 9 10 11 @Override public void onStart() { super.onStart(); EventBus.getDefault().register(this); } @Override public void onStop() { super.</description></item></channel></rss>

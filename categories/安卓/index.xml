@@ -1,40 +1,12 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>安卓 - 分类 - 须远</title>
-        <link>https://wxiang.cc/categories/%E5%AE%89%E5%8D%93/</link>
-        <description>安卓 - 分类 - 须远</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Kim Liss)</managingEditor>
-            <webMaster>itwangxiang@gmail.com (Kim Liss)</webMaster><lastBuildDate>Thu, 10 Oct 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://wxiang.cc/categories/%E5%AE%89%E5%8D%93/" rel="self" type="application/rss+xml" /><item>
-    <title>ADB 常用命令</title>
-    <link>https://wxiang.cc/adb/</link>
-    <pubDate>Thu, 10 Oct 2019 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://wxiang.cc/adb/</guid>
-    <description><![CDATA[常规 1 2 3 4 5 6 7 8  adb tcpip 5555 //设置远程设备监听端口 adb connect ip:port //连接远程设备 adb -s 20b5c60c shell ifconfig wlan0 //查看 IP adb reconnect //重新连接设备 adb shell am start -n ｛package｝/.{activity} //启动程序 adb shell setprop persist.service.adb.tcp.port 5555 //设置系统重启后，远程设备监听端口 adb shell wifitest -z &#34;W 00:1f:2e:3d:4c:5b&#34; //设置 WI-FI MAC adb shell wifitest -z &#34;B 00:1f:2e:3d:4c:5b&#34; //设置 蓝牙 MAC   ]]></description>
-</item><item>
-    <title>EventBus 源码分析</title>
-    <link>https://wxiang.cc/eventbus/</link>
-    <pubDate>Sun, 05 Mar 2017 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://wxiang.cc/eventbus/</guid>
-    <description><![CDATA[3.1.1
- 使用   定义事件
-1  public static class MessageEvent { /* Additional fields if needed */ }     准备订阅者：声明并注释您的订阅方法，可选择指定一个线程模式
-1 2  @Subscribe(threadMode = ThreadMode.MAIN) public void onMessageEvent(MessageEvent event) {/* Do something */};     注册和注销您的订阅者
-1 2 3 4 5 6 7 8 9 10 11  @Override public void onStart() { super.onStart(); EventBus.getDefault().register(this); } @Override public void onStop() { super.]]></description>
-</item><item>
-    <title>Android 开发大纲</title>
-    <link>https://wxiang.cc/android/</link>
-    <pubDate>Thu, 05 Jan 2017 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://wxiang.cc/android/</guid>
-    <description><![CDATA[基础篇 四大组件 Activity
-  生命周期
-1 2 3 4 5 6  onCreate() onStart() onResume() onPause() onStop() onDestory()     启动模式
- standard singleTop singleTask singleInstance    Service
-  startService
-1 2 3 4  onCreate() onStartCommand() onStart() onDestroy()     bindService
-1 2 3 4 5 6  bindService() onCreate() //IBinder onBind(Intent intent)() unBindService() onDestroy()     BroadcastReceiver
- 作用：从 Android 系统和其他 Android 应用程序发送或接收广播消息 注册方式：静态/动态 类型  普通广播 Normal Broadcast 系统广播 System Broadcast 有序广播 Ordered Broadcast 粘性广播 Sticky Broadcast 应用内广播 Local Broadcast    Content Provider]]></description>
-</item></channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>安卓 - 分类 - 须远</title><link>https://wxiang.cc/categories/%E5%AE%89%E5%8D%93/</link><description>安卓 - 分类 - 须远</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Kim Liss)</managingEditor><webMaster>itwangxiang@gmail.com (Kim Liss)</webMaster><lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://wxiang.cc/categories/%E5%AE%89%E5%8D%93/" rel="self" type="application/rss+xml"/><item><title>ADB 常用命令</title><link>https://wxiang.cc/adb/</link><pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate><author>作者</author><guid>https://wxiang.cc/adb/</guid><description><![CDATA[常规 1 2 3 4 5 6 7 8  adb tcpip 5555 //设置远程设备监听端口 adb connect ip:port //连接远程设备 adb -s 20b5c60c shell ifconfig wlan0 //查看 IP adb reconnect //重新连接设备 adb shell am start -n ｛package｝/.{activity} //启动程序 adb shell setprop persist.service.adb.tcp.port 5555 //设置系统重启后，远程设备监听端口 adb shell wifitest -z &#34;W 00:1f:2e:3d:4c:5b&#34; //设置 WI-FI MAC adb shell wifitest -z &#34;B 00:1f:2e:3d:4c:5b&#34; //设置 蓝牙 MAC   ]]></description></item><item><title>EventBus 源码分析</title><link>https://wxiang.cc/eventbus/</link><pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate><author>作者</author><guid>https://wxiang.cc/eventbus/</guid><description>3.1.1
+使用 定义事件
+1 public static class MessageEvent { /* Additional fields if needed */ } 准备订阅者：声明并注释您的订阅方法，可选择指定一个线程模式
+1 2 @Subscribe(threadMode = ThreadMode.MAIN) public void onMessageEvent(MessageEvent event) {/* Do something */}; 注册和注销您的订阅者
+1 2 3 4 5 6 7 8 9 10 11 @Override public void onStart() { super.onStart(); EventBus.getDefault().register(this); } @Override public void onStop() { super.</description></item><item><title>Android 开发大纲</title><link>https://wxiang.cc/android/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><author>作者</author><guid>https://wxiang.cc/android/</guid><description>基础篇 四大组件 Activity
+生命周期
+1 2 3 4 5 6 onCreate() onStart() onResume() onPause() onStop() onDestory() 启动模式
+standard singleTop singleTask singleInstance Service
+startService
+1 2 3 4 onCreate() onStartCommand() onStart() onDestroy() bindService
+1 2 3 4 5 6 bindService() onCreate() //IBinder onBind(Intent intent)() unBindService() onDestroy() BroadcastReceiver
+作用：从 Android 系统和其他 Android 应用程序发送或接收广播消息 注册方式：静态/动态 类型 普通广播 Normal Broadcast 系统广播 System Broadcast 有序广播 Ordered Broadcast 粘性广播 Sticky Broadcast 应用内广播 Local Broadcast Content Provider</description></item></channel></rss>

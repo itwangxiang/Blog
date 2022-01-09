@@ -1,15 +1,1 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>规范 - 标签 - 须远</title>
-        <link>https://wxiang.cc/tags/%E8%A7%84%E8%8C%83/</link>
-        <description>规范 - 标签 - 须远</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Kim Liss)</managingEditor>
-            <webMaster>itwangxiang@gmail.com (Kim Liss)</webMaster><lastBuildDate>Sat, 05 Jan 2019 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://wxiang.cc/tags/%E8%A7%84%E8%8C%83/" rel="self" type="application/rss+xml" /><item>
-    <title>Git Commit Message 规范</title>
-    <link>https://wxiang.cc/git-commit-message-specification/</link>
-    <pubDate>Sat, 05 Jan 2019 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>https://wxiang.cc/git-commit-message-specification/</guid>
-    <description><![CDATA[1 2 3 4 5  &lt;type&gt;[optional scope]: &lt;description&gt; [optional body] [optional footer(s)]   1 2 3 4 5 6 7 8 9 10 11 12 13 14  # head: &lt;type&gt;(&lt;scope&gt;): &lt;subject&gt; # - type: feat, fix, docs, style, refactor, test, chore # - scope: can be empty (eg. if the change is a global or difficult to assign to a single component) # - subject: start with verb (such as &#39;change&#39;), 50-character line # # body: 72-character wrapped.]]></description>
-</item></channel>
-</rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>规范 - 标签 - 须远</title><link>https://wxiang.cc/tags/%E8%A7%84%E8%8C%83/</link><description>规范 - 标签 - 须远</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>itwangxiang@gmail.com (Kim Liss)</managingEditor><webMaster>itwangxiang@gmail.com (Kim Liss)</webMaster><lastBuildDate>Sat, 05 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://wxiang.cc/tags/%E8%A7%84%E8%8C%83/" rel="self" type="application/rss+xml"/><item><title>Git Commit Message 规范</title><link>https://wxiang.cc/git-commit-message-specification/</link><pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate><author>作者</author><guid>https://wxiang.cc/git-commit-message-specification/</guid><description><![CDATA[1 2 3 4 5  &lt;type&gt;[optional scope]: &lt;description&gt; [optional body] [optional footer(s)]   1 2 3 4 5 6 7 8 9 10 11 12 13 14  # head: &lt;type&gt;(&lt;scope&gt;): &lt;subject&gt; # - type: feat, fix, docs, style, refactor, test, chore # - scope: can be empty (eg. if the change is a global or difficult to assign to a single component) # - subject: start with verb (such as &#39;change&#39;), 50-character line # # body: 72-character wrapped.]]></description></item></channel></rss>
