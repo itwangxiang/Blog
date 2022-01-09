@@ -1,4 +1,5 @@
 version: "0.2.X"
+auther: Me
 keywords: ["Blog", "IT", "Java"]
 home:
   profile:
@@ -8,21 +9,55 @@ home:
     subtitle: "欢迎来到我的个人小站"
     typeit: true
     social: true
+    disclaimer: 
   posts:
     enable: true
-    paginate: 5
-page:
-  hiddenFromHomePage: false
-  lightgallery: false
-  comment:
-    enable: true
-    disqus:
-      enable: true
-      shortname: wixang
+    paginate: 6
 social:
   Github: itwangxiang
   Email: itwangxiang@gmail.com
   RSS: true
+page:
+  hiddenFromHomePage: false
+  hiddenFromSearch: false
+  twemoji: false
+  lightgallery: false
+  ruby: true
+  fraction: true
+  fontawesome: true
+  linkToMarkdown: true
+  rssFullText: false
+toc:
+  enable: true
+  keepStatic: true
+  auto: true
+code:
+  copy: true
+  maxShownLines: 10
+math:
+  enable: true
+  blockLeftDelimiter: ""      
+  blockRightDelimiter: ""
+  inlineLeftDelimiter: ""
+  inlineRightDelimiter: ""
+  copyTex: true
+  mhchem: true
+share:
+  enable: true
+  Weibo: true
+comment:
+  enable: true
+  disqus:
+    enable: true
+    shortname: "wxiang"  
+seo:
+  image: "logo.jpg"
+  thumbnailUrl: "log.jpg"
+analytics:
+  enable: true
+  google:
+    id: G-925QSPB2XF
+    anonymizeIP: true
 search:
   enable: true
   type: lunr

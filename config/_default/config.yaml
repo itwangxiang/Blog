@@ -27,12 +27,49 @@ taxonomies:
   tag: tags
 
 markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
   goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
     renderer:
       unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+
+author:
+  name: Me
+  email: itwangxiang@gmail.com
+  link: https://wxiang.cc/about
+
+Permalinks:
+# posts = ":year/:month/:filename"
+  posts: :filename
+
+mediaTypes:
+  "text/plain": 
+    suffixes: md
+
+outputFormats:
+  MarkDown:
+    mediaType: text/plain
+    isPlainText: true
+    isHTML: true
 
 outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON
+  home: ["HTML", "RSS", "JSON"]
+  page: ["HTML", "MarkDown"]
+  section: ["HTML", "RSS"]
+  taxonomy: ["HTML", "RSS"]
+  taxonomyTerm: ["HTML"]
