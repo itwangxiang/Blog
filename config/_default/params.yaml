@@ -60,7 +60,7 @@ page:
   editPost:
     url: "https://github.com/itwangxiang/itwangxiang.github.io/tree/master/content"
     text: "编辑" # edit text
-    appendFilePath: true # to append file path to Edit link    
+    appendFilePath: true # to append file path to Edit link
   code:
     copy: true
     maxShownLines: 10
