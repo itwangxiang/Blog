@@ -1,0 +1,114 @@
+env: production
+version: "0.2.X"
+description: "这是我的个人小站"
+keywords: ["Blog", "IT", "Java"]
+defaultTheme: auto
+dateFormat: "2006-01-02"
+image: ["/logo.jpg"]
+app:
+  title: "须远"
+  noFavicon: false
+  themeColor: "#ffffff"
+  iconColor: "#5bbad5"
+  tileColor: "#da532c"
+search:
+  enable: true
+  type: lunr
+  contentLength: 4000
+  placeholder: ""
+  maxResultLength: 10
+  snippetLength: 50
+  highlightTag: em
+  absoluteURL: false
+  algolia:
+    index: ""
+    appID: ""
+    searchKey: ""
+header:
+  desktopMode: fixed
+  mobileMode: auto
+  title:
+    logo: ""
+    name: "须远"
+    typeit: false
+footer:
+  enable: true
+  custom: "wxiang.cc"
+  hugo: false
+  copyright: true
+  author: true
+  since: 2015
+section:
+  paginate: 20
+  dateFormat: "01-02"
+  rss: 10
+list:
+  paginate: 20
+  dateFormat: "01-02"
+  rss: 10
+home:
+  rss: 10
+  profile:
+    enable: true
+    avatarURL: "./logo.jpg"
+    title: "人生当立志，立志须高远"
+    subtitle: "欢迎来到我的个人小站"
+    typeit: true
+    social: true
+    disclaimer:
+  posts:
+    enable: true
+    paginate: 6
+    defaultHiddenFromHomePage: false
+social:
+  Github: itwangxiang
+  Weibo: itwangxiang
+  Email: itwangxiang@gmail.com
+  RSS: true
+page:
+  hiddenFromHomePage: false
+  hiddenFromSearch: false
+  twemoji: false
+  lightgallery: false
+  ruby: true
+  fraction: true
+  fontawesome: true
+  linkToMarkdown: true
+  rssFullText: false
+  seo:
+  images: ["logo.jpg"]
+  publisher:
+    image: "logo.jpg"
+    thumbnailUrl: "log.jpg"
+  comment:
+    enable: true
+    disqus:
+      enable: true
+      shortname: "wxiang"
+  share:
+  enable: true
+  Twitter: true
+  Weibo: true      
+toc:
+  enable: true
+  keepStatic: true
+  auto: true
+code:
+  copy: true
+  maxShownLines: 10
+math:
+  enable: true
+  blockLeftDelimiter: ""
+  blockRightDelimiter: ""
+  inlineLeftDelimiter: ""
+  inlineRightDelimiter: ""
+  copyTex: true
+  mhchem: true
+seo:
+  images: ["logo.jpg"]
+  thumbnailUrl: "log.jpg"
+analytics:
+  enable: true
+  google:
+    id: G-925QSPB2XF
+    anonymizeIP: true
