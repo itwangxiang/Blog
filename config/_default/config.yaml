@@ -9,7 +9,7 @@ defaultContentLanguage: zh-cn
 disableLanguages: en
 
 googleAnalytics: G-925QSPB2XF
-disqusShortname: wxiang
+# disqusShortname: wxiang
 
 enableRobotsTXT: true
 buildDrafts: false
