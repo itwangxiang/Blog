@@ -34,6 +34,7 @@ footer:
   copyright: true
   author: true
   since: 2015
+  license: '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/deed.zh" target="_blank">CC BY-NC 4.0</a>'
 section:
   paginate: 20
   dateFormat: 01-02
@@ -167,7 +168,7 @@ home:
     subtitle: "欢迎来到我的个人小站"
     typeit: true
     social: true
-    disclaimer:
+    disclaimer: "本站采用知识共享 4.0 许可协议进行版权许可 <br/> 如需转载，请注明来源"
   posts:
     enable: true
     paginate: 6
