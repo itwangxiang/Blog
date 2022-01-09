@@ -1,0 +1,8 @@
+{{- if or .Params.editPost.url .Site.Params.editPost.url -}}
+{{- $fileurlPath := path.Join .File.Path }}
+
+&nbsp;|&nbsp;
+<a href="{{ .Params.editPost.url | default .Site.Params.editPost.url }}{{ if .Params.editPost.appendFilePath | default ( .Site.Params.editPost.appendFilePath | default false ) }}/{{ $fileurlPath }}{{ end }}" rel="noopener noreferrer" target="_blank">
+    {{- .Params.editPost.text | default (.Site.Params.editPost.text | default (i18n "edit_post" | default "Edit")) -}}
+</a>
+{{- end }}
