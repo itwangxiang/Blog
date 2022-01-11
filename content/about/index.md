@@ -21,14 +21,6 @@ comment:
 
 ### 技术栈
 
-***语言***
-
-- Java
-- Kotlin
-- Node
-- Golang
-- C#
-
 ***数据库***
 
 - mysql
@@ -36,13 +28,20 @@ comment:
 
 ***后端***
 
-- Spring Boot / Spring Cloud
+- Java
+- Golang
+- Nodejs
 
 ***前端***
 
-- Android
-- Racet
-- iOS
+- Racet & Redux
+- Vue
+- Ionic
+
+***移动***
+
+- Android & Kotlin
+- iOS & Swift & Swift UI
 
 ### 联系方式
 
