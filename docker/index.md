@@ -121,6 +121,7 @@ $docker exec -it mysql mysql -uroot -p
 # 设置 db 密码
 $CREATE USER 'nacos'@'%' IDENTIFIED BY '******';
 $GRANT ALL ON nacos.* TO 'nacos'@'%';
+$flush privileges;
 
 
 # 设置内存 
