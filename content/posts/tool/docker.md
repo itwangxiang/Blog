@@ -122,6 +122,9 @@ $sudo docker run -d --restart=always --net mydev --name mysql -h mysql \
 # shell 链接
 $docker exec -it mysql mysql -uroot -p 
 
+# 允许 root 远程登录
+$grant all privileges on *.* to 'root'@'%' identified by '******' with grant option;
+
 # 设置 db 密码
 $CREATE USER 'nacos'@'%' IDENTIFIED BY '******';
 $GRANT ALL ON nacos.* TO 'nacos'@'%';
