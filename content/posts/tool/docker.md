@@ -74,6 +74,10 @@ docker logs [OPTIONS] CONTAINER
   - `--tail` - 从日志末尾开始显示的行数
   - `--since` - 显示自时间戳记以来的日志（例如2013-01-02T13：23：37）或相对时间（例如42m，持续42分钟）
 
+```bash
+$docker logs --since="2022-05-07T13:23:00" --until "2022-05-07T14:00:00" xxx
+```
+
 ## 部署示例
 
 ### Network
