@@ -68,3 +68,15 @@ server {
 }
 ```
 
+## Docker
+
+```bash
+docker network create -d bridge --subnet 172.25.0.0/24 mynet;
+docker run --name tmp-nginx-container -d nginx:alpine
+mkdir -p ~/nginx
+docker cp tmp-nginx-container:/etc/nginx ~/nginx/etc
+docker cp tmp-nginx-container:/usr/share/nginx/html ~/nginx/html
+docker stop tmp-nginx-container
+docker rm -f tmp-nginx-container
+docker run -d -e TZ=Asia/Shanghai --restart=always -h web --net mynet -v ~/nginx/etc:/etc/nginx -v ~/nginx/html:/usr/share/nginx/html  -p 80:80 -p 443:443 --name web nginx:alpine;
+```
