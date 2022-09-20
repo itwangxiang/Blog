@@ -2,4 +2,4 @@
 使用 acme - dns 方式申请 设置 CA
 1 2 3 docker run --rm -it \ -v $PWD/acme:/acme.sh \ neilpang/acme.sh --set-default-ca --server letsencrypt 注册
 1 2 3 docker run --rm -it \ -v $PWD/acme:/acme.sh \ neilpang/acme.sh --register-account -m ***@gmail.com 申请证书
-1 2 3 docker run --rm -it \ -v $PWD/acme:/acme.sh \ neilpang/acme.sh --issue -d *.wxiang.cc --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please 更新证书</description></item></channel></rss>
+1 2 3 docker run --rm -it \ -v $PWD/acme:/acme.sh \ neilpang/acme.sh --issue -d *.wxiang.cc --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please Ps: 测试 TXT 是否成功 -&amp;gt; https://toolbox.</description></item></channel></rss>

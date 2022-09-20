@@ -31,7 +31,10 @@ docker run --rm  -it  \
   neilpang/acme.sh  --issue -d *.wxiang.cc  --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
+> Ps: 测试 TXT 是否成功 -> https://toolbox.googleapps.com/apps/dig
+
 更新证书
+
 
 ```bash
 docker run --rm  -it  \
