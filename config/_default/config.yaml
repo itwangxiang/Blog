@@ -1,4 +1,4 @@
-baseURL: "https://wxiang.cc/"
+baseURL: "https://kimliss.github.io/"
 languageCode: zh-CN
 disableLanguages: en
 defaultContentLanguage: zh-cn
@@ -34,7 +34,7 @@ markup:
 author:
   name: 须远
   email: itwangxiang@gmail.com
-  link: https://wxiang.cc/about
+  link: https://kimliss.github.io/about
 sitemap:
   changefreq: weekly
   filename: sitemap.xml
@@ -73,5 +73,5 @@ outputs:
   taxonomyTerm:
     - HTML
 
-googleAnalytics: G-925QSPB2XF
-disqusShortname: wxiang
+googleAnalytics: G-LL3Z587RW5
+disqusShortname: kimliss

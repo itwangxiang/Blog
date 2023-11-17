@@ -1,6 +1,6 @@
 version: 0.2.X
 defaultTheme: auto
-gitRepo: "https://github.com/itwangxiang/itwangxiang.github.io"
+gitRepo: "https://github.com/kimliss/kimliss.github.io"
 fingerprint: ""
 dateFormat: "2006-01-02"
 search:
@@ -58,7 +58,7 @@ page:
     keepStatic: false
     auto: true
   editPost:
-    url: "https://github.com/itwangxiang/itwangxiang.github.io/tree/master/content"
+    url: "https://github.com/kimliss/kimliss.github.io/tree/master/content"
     text: "编辑" # edit text
     appendFilePath: true # to append file path to Edit link
   code:
@@ -174,9 +174,9 @@ home:
     paginate: 6
     defaultHiddenFromHomePage: false
 social:
-  Github: itwangxiang
+  Github: kimliss
   RSS: true
-  Email: itwangxiang@gmail.com
+  Email: kimliss@gmail.com
 typeit:
   speed: 100
   cursorSpeed: 1000
