@@ -28,7 +28,7 @@ docker run --rm  -it  \
 ```bash
 docker run --rm  -it  \
   -v $PWD/acme:/acme.sh  \
-  neilpang/acme.sh  --issue -d *.wxiang.cc  --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
+  neilpang/acme.sh  --issue -d "*.wxiang.cc"  --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
 > Ps: 测试 TXT 是否成功 -> https://toolbox.googleapps.com/apps/dig
@@ -39,7 +39,7 @@ docker run --rm  -it  \
 ```bash
 docker run --rm  -it  \
   -v $PWD/acme:/acme.sh  \
-  neilpang/acme.sh  --renew -d *.wxiang.cc  --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
+  neilpang/acme.sh  --renew -d "*.wxiang.cc"  --dns --yes-I-know-dns-manual-mode-enough-go-ahead-please
 ```
 
 导出证书(nginx)
@@ -47,7 +47,7 @@ docker run --rm  -it  \
 ```bash
 docker run --rm  -it  \
   -v $PWD/acme:/acme.sh  \
-  neilpang/acme.sh --install-cert -d uind.wxiang.cc \
+  neilpang/acme.sh --install-cert -d "*.wxiang.cc" \
   --cert-file /acme.sh/certs/cert \
   --key-file /acme.sh/certs/key \
   --fullchain-file /acme.sh/certs/fullchain
