@@ -29,7 +29,7 @@ header:
     typeit: false
 footer:
   enable: true
-  custom: "wxiang.cc"
+  custom: "kimliss.github.io"
   hugo: false
   copyright: true
   author: true
@@ -105,7 +105,7 @@ page:
     enable: true
     disqus:
       enable: true
-      shortname: "wxiang"
+      shortname: "kimliss"
     gitalk:
       enable: false
       owner: ""
