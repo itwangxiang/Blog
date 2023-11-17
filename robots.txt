@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://wxiang.cc/sitemap.xml
+Sitemap: https://kimliss.github.io/sitemap.xml
