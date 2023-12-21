@@ -29,7 +29,7 @@ header:
     typeit: false
 footer:
   enable: true
-  custom: "kimliss.github.io"
+  custom: "blog.wxiang.cc"
   hugo: false
   copyright: true
   author: true
